@@ -1,4 +1,14 @@
 #lang racket
+
+#|
+
+Press any key to advance the game.
+Press r for Rock.
+Press p for Paper.
+Press s for Scissors.
+
+|#
+
 (require "fst.rkt"
          "graph.rkt"
          2htdp/universe
