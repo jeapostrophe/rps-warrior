@@ -37,7 +37,7 @@
   old
   (for/fold ([m
               (random-one-state-fst '(r p s) '(r p s))])
-    ([i (in-range 19)])
+    ([i (in-range 30)])
     (mutate-fst m)))
 old
 (fst-graph old)
