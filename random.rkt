@@ -1,6 +1,7 @@
 #lang racket/base
 (require (for-syntax racket/base
                      racket/list
+                     racket/syntax
                      unstable/syntax))
 
 (define (random-list-ref l)
